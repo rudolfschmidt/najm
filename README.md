@@ -1,2 +1,2 @@
 # najm
-Najm is a java object mapper for mongodb
+Najm maps mongodb data to a java object model.
