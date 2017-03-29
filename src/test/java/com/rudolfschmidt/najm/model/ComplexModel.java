@@ -1,11 +1,9 @@
 package com.rudolfschmidt.najm.model;
 
-import com.rudolfschmidt.najm.annotations.Collection;
 import com.rudolfschmidt.najm.annotations.Id;
 
 import java.util.UUID;
 
-@Collection("model")
 public class ComplexModel {
 
     public static ComplexModel newInstance() {

@@ -1,5 +1,7 @@
 package com.rudolfschmidt.najm;
 
 public interface Constants {
-    String DATABASE_NAME = "sharpmapper-test";
+	String EMPTY_MODEL_NAME = "";
+    String VALID_MODEL_NAME = "model";
+    String DATABASE_NAME = "najm";
 }

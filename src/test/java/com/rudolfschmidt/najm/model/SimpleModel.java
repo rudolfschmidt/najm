@@ -1,11 +1,9 @@
 package com.rudolfschmidt.najm.model;
 
-import com.rudolfschmidt.najm.annotations.Collection;
 import com.rudolfschmidt.najm.annotations.Id;
 
 import java.util.UUID;
 
-@Collection("model")
 public class SimpleModel {
 
     public static SimpleModel newInstance() {
@@ -15,7 +13,6 @@ public class SimpleModel {
     public static SimpleModel newInstance(String id) {
         return new SimpleModel(id, UUID.randomUUID().toString(), UUID.randomUUID().toString());
     }
-
 
     @Id
     private final String id;
